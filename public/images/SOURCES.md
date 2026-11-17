@@ -1,6 +1,6 @@
 # Fontes e créditos das imagens
 
-Os cinco arquivos abaixo foram fornecidos pelo usuário nesta conversa e exportados para WebP com o Chrome Canvas, qualidade 0,86. A exportação manteve as dimensões originais. Os PNGs de origem foram preservados em `C:\Users\adria\Downloads`.
+Os cinco arquivos abaixo foram fornecidos pelo usuário nesta conversa e exportados para WebP com o Chrome Canvas, qualidade 0,86. A exportação manteve as dimensões originais. Os PNGs de origem foram preservados fora do repositório.
 
 | Arquivo no site | Arquivo de origem fornecido |
 | --- | --- |
@@ -11,3 +11,4 @@ Os cinco arquivos abaixo foram fornecidos pelo usuário nesta conversa e exporta
 | `detalhe.webp` | `Costura Artesanal em Tons Quentes.png` |
 
 Não foram baixadas imagens externas. Confirme licenças e direitos de uso das imagens antes de publicar comercialmente.
+
