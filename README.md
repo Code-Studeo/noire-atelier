@@ -57,4 +57,3 @@ A sacola mantém a seleção na sessão e preenche o formulário de contato. O f
 4. Confira a URL gerada e adicione um domínio próprio nas configurações da Vercel, se desejar.
 
 Nenhuma publicação foi feita por este projeto.
-

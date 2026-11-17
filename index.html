@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#11100f">
+  <meta name="description" content="NOIRÉ ATELIER — moda autoral, alfaiataria e peças criadas para acompanhar a sua história.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="NOIRÉ ATELIER — Vista sua própria história">
+  <meta property="og:description" content="Moda autoral, alfaiataria e peças criadas para acompanhar o que importa.">
+  <title>NOIRÉ ATELIER — Vista sua própria história</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="atelier.css">
+  <script src="config.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" data-header>
+    <a class="wordmark" href="#inicio" aria-label="NOIRÉ ATELIER, início">NOIRÉ <span>ATELIER</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Abrir menu"><span></span><span></span></button>
+    <nav id="main-nav" class="main-nav" aria-label="Navegação principal">
+      <a href="#manifesto">O atelier</a><a href="#colecao">Coleção</a><a href="#lookbook">Lookbook</a><a href="#processo">Nosso jeito</a>
+      <button class="bag-link" type="button" data-open-cart>Carrinho <span data-cart-count>0</span></button>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-art" data-parallax aria-hidden="true"><img class="hero-photo" src="public/images/hero.webp" width="1672" height="941" alt="" fetchpriority="high" decoding="async"></div>
+      <div class="hero-grain" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow"><span></span> Moda autoral · Atelier independente</p>
+        <h1 id="hero-title">Vista sua<br><em>própria história.</em></h1>
+        <p class="hero-copy">Peças pensadas com tempo, desenhadas para acompanhar o seu.</p>
+        <div class="hero-actions"><a class="button button-gold" href="#colecao">Conheça a coleção <span aria-hidden="true">↗</span></a><a class="text-link" href="#manifesto">Entre no atelier <span aria-hidden="true">↓</span></a></div>
+      </div>
+      <div class="hero-index"><span>01</span><i></i><span>05</span></div>
+      <p class="hero-note">Feito para ficar.<br>Feito para ser seu.</p>
+    </section>
+
+    <section class="manifesto section-pad" id="manifesto" aria-labelledby="manifesto-title">
+      <div class="section-kicker reveal"><span>01 / O atelier</span><span>Uma casa de ideias vestíveis</span></div>
+      <div class="manifesto-grid">
+        <div class="manifesto-copy reveal"><h2 id="manifesto-title">A roupa também<br>guarda <em>memórias.</em></h2><p>A NOIRÉ nasceu entre moldes, tecidos e conversas sobre o que faz uma peça permanecer no guarda-roupa. Dessa inquietação veio uma escolha: desenhar com intenção, aproximando matéria, forma e vida cotidiana.</p><p>Criamos roupas para acompanhar quem você é hoje e as mudanças que fazem parte de cada história.</p><a class="underlined-link" href="#processo">Conheça nosso processo <span>↗</span></a></div>
+        <figure class="manifesto-visual visual-frame reveal"><div class="visual-surface scene-environment"><img src="public/images/ambiente.webp" width="1122" height="1402" alt="Interior de atelier com roupas, tecidos e mesa de corte sob luz dourada" loading="lazy" decoding="async"></div><figcaption><span>Matéria, luz e intenção</span><span>Interior do atelier</span></figcaption></figure>
+      </div>
+      <div class="mission-line reveal"><span class="tiny-star">✳</span><p><b>Nosso propósito</b> é criar roupas com presença e simplicidade, respeitando a matéria-prima e o tempo de quem as veste.</p></div>
+      <div class="atelier-notes reveal"><div class="atelier-note-heading"><p class="eyebrow">Dentro do atelier</p><h3>Desenho, forma<br>e matéria.</h3></div><div class="atelier-person"><span>Direção criativa</span><b>Uma ideia, muitos olhares</b><small>Conduz referências, conceito e desenho das peças.</small></div><div class="atelier-person"><span>Modelagem</span><b>Caimento em movimento</b><small>Desenvolve proporções e liberdade para vestir.</small></div><div class="atelier-person"><span>Matéria e imagem</span><b>Textura que conta</b><small>Seleciona tecidos e define a linguagem de cada coleção.</small></div></div>
+      <div class="difference-row reveal"><span class="eyebrow">O que orienta nosso trabalho</span><p><b>Escala cuidadosa</b><span>Peças desenvolvidas em pequenas séries.</span></p><p><b>Forma a serviço do uso</b><span>O desenho considera movimento, combinações e rotina.</span></p><p><b>Matéria com intenção</b><span>Linho, algodão e viscose escolhidos pela textura e pelo toque.</span></p></div>
+    </section>
+
+    <section class="collection section-pad" id="colecao" aria-labelledby="collection-title">
+      <div class="collection-head reveal"><div><p class="eyebrow">02 / Coleção Essência</p><h2 id="collection-title">Coleção <em>Essência</em></h2></div><p>Peças para atravessar a rotina<br>com leveza e intenção.</p></div>
+      <div class="catalog-tools reveal"><div class="filters" role="group" aria-label="Filtrar coleção"><button class="filter-button is-active" type="button" data-filter="todos" aria-pressed="true">Tudo <span>05</span></button><button class="filter-button" type="button" data-filter="vestidos" aria-pressed="false">Vestidos</button><button class="filter-button" type="button" data-filter="alfaiataria" aria-pressed="false">Alfaiataria</button><button class="filter-button" type="button" data-filter="bolsas" aria-pressed="false">Bolsas</button><button class="filter-button" type="button" data-filter="editorial" aria-pressed="false">Editorial</button></div><p class="demo-label">Peças selecionadas da coleção</p></div>
+      <div class="product-grid" data-products>
+        <article class="product-card reveal" data-category="vestidos"><button class="product-image product-visual dress-visual" type="button" data-look="0" aria-label="Abrir Vestido Aurora no editorial"><img class="product-photo photo-dress" src="public/images/destaque-01.webp" width="1122" height="1402" alt="" loading="lazy" decoding="async"><span class="product-tag">01 — Vestidos</span><span class="image-caption">Linho em movimento</span></button><div class="product-info"><div><h3>Vestido Aurora</h3><p>Linho · areia</p></div><div class="product-buy"><span>R$ 890</span><button type="button" class="add-button" data-add="aurora" aria-label="Adicionar Vestido Aurora à sacola">+</button></div></div></article>
+        <article class="product-card reveal" data-category="alfaiataria"><button class="product-image product-visual tailoring-visual" type="button" data-look="1" aria-label="Abrir Conjunto Linha no editorial"><img class="product-photo photo-tailoring" src="public/images/destaque-02.webp" width="1122" height="1402" alt="" loading="lazy" decoding="async"><span class="product-tag">02 — Alfaiataria</span><span class="image-caption">Corte preciso, presença leve</span></button><div class="product-info"><div><h3>Conjunto Linha</h3><p>Alfaiataria · carvão</p></div><div class="product-buy"><span>R$ 1.240</span><button type="button" class="add-button" data-add="linha" aria-label="Adicionar Conjunto Linha à sacola">+</button></div></div></article>
+        <article class="product-card reveal" data-category="bolsas"><button class="product-image product-visual bag-visual" type="button" data-look="2" aria-label="Abrir Bolsa Íris no editorial"><img class="product-photo photo-bag" src="public/images/destaque-02.webp" width="1122" height="1402" alt="" loading="lazy" decoding="async"><span class="product-tag">03 — Bolsas</span><span class="image-caption">Couro e ferragens douradas</span></button><div class="product-info"><div><h3>Bolsa Íris</h3><p>Couro · preto</p></div><div class="product-buy"><span>R$ 620</span><button type="button" class="add-button" data-add="iris" aria-label="Adicionar Bolsa Íris à sacola">+</button></div></div></article>
+        <article class="product-card reveal" data-category="vestidos"><button class="product-image product-visual dress-visual dress-visual-2" type="button" data-look="3" aria-label="Abrir Vestido Maré no editorial"><img class="product-photo photo-mare" src="public/images/hero.webp" width="1672" height="941" alt="" loading="lazy" decoding="async"><span class="product-tag">04 — Vestidos</span><span class="image-caption">Preto em movimento</span></button><div class="product-info"><div><h3>Vestido Maré</h3><p>Crepe fluido · preto</p></div><div class="product-buy"><span>R$ 970</span><button type="button" class="add-button" data-add="mare" aria-label="Adicionar Vestido Maré à sacola">+</button></div></div></article>
+        <article class="product-card reveal" data-category="editorial"><button class="product-image product-visual editorial-visual" type="button" data-look="4" aria-label="Abrir Caderno Essência no editorial"><img class="product-photo photo-editorial" src="public/images/detalhe.webp" width="1536" height="1024" alt="" loading="lazy" decoding="async"><span class="product-tag">05 — Editorial</span><span class="image-caption">Feito à mão, ponto a ponto</span></button><div class="product-info"><div><h3>Caderno Essência</h3><p>Edição impressa · capa artesanal</p></div><div class="product-buy"><span>R$ 180</span><button type="button" class="add-button" data-add="caderno" aria-label="Adicionar Caderno Essência à sacola">+</button></div></div></article>
+      </div>
+      <p class="catalog-note">Para informações sobre tamanhos, disponibilidade e cuidados, fale com nosso atelier.</p>
+    </section>
+
+    <section class="lookbook section-pad" id="lookbook" aria-labelledby="lookbook-title">
+      <div class="lookbook-heading reveal"><div><p class="eyebrow">03 / Editorial Essência</p><h2 id="lookbook-title">Um olhar sobre<br><em>o essencial.</em></h2></div><p>Texturas, volumes e luz natural revelam o caráter de cada peça da coleção.</p></div>
+      <div class="lookbook-grid">
+        <button class="look-tile look-tile-large reveal" type="button" data-look="0" aria-label="Ver Vestido Aurora"><span class="look-art look-one"><img src="public/images/destaque-01.webp" width="1122" height="1402" alt="" loading="lazy" decoding="async"></span><span class="look-caption"><b>01</b> A luz encontra o linho <i>↗</i></span></button>
+        <button class="look-tile look-tile-tall reveal" type="button" data-look="1" aria-label="Ver Conjunto Linha"><span class="look-art look-two"><img src="public/images/destaque-02.webp" width="1122" height="1402" alt="" loading="lazy" decoding="async"></span><span class="look-caption"><b>02</b> Corte com espaço para respirar <i>↗</i></span></button>
+        <button class="look-tile reveal" type="button" data-look="2" aria-label="Ver Bolsa Íris"><span class="look-art look-three"><img src="public/images/ambiente.webp" width="1122" height="1402" alt="" loading="lazy" decoding="async"></span><span class="look-caption"><b>03</b> O objeto de todos os dias <i>↗</i></span></button>
+        <button class="look-tile reveal" type="button" data-look="3" aria-label="Ver Vestido Maré"><span class="look-art look-four"><img src="public/images/hero.webp" width="1672" height="941" alt="" loading="lazy" decoding="async"></span><span class="look-caption"><b>04</b> Um gesto em movimento <i>↗</i></span></button>
+        <button class="look-tile look-tile-wide reveal" type="button" data-look="4" aria-label="Ver Caderno Essência"><span class="look-art look-five"><img src="public/images/detalhe.webp" width="1536" height="1024" alt="" loading="lazy" decoding="async"></span><span class="look-caption"><b>05</b> Matéria em estado de ideia <i>↗</i></span></button>
+      </div>
+    </section>
+
+    <section class="experience section-pad" id="processo" aria-labelledby="process-title">
+      <div class="experience-art" data-parallax aria-hidden="true"><img src="public/images/detalhe.webp" width="1536" height="1024" alt="" loading="lazy" decoding="async"></div>
+      <div class="experience-content reveal"><p class="eyebrow">04 / A experiência</p><h2 id="process-title">Começa com<br>uma <em>conversa.</em></h2><p>Cada escolha começa com escuta. Conversamos sobre sua rotina, as peças que já fazem parte dela e como você quer se sentir ao vestir.</p><ol class="process-list"><li><span>01</span><div><b>Escutar</b><p>Uma conversa sobre rotina, referências e intenção.</p></div></li><li><span>02</span><div><b>Desenhar</b><p>Forma, caimento e detalhes ganham contorno.</p></div></li><li><span>03</span><div><b>Refinar</b><p>Os ajustes definem o equilíbrio e a liberdade de movimento.</p></div></li></ol><a class="button button-outline" href="#contato">Conversar sobre uma peça <span>↗</span></a></div>
+    </section>
+
+    <section class="voices section-pad" aria-labelledby="voices-title">
+      <div class="section-kicker reveal"><span>05 / Nosso olhar</span><span>Princípios da coleção</span></div>
+      <div class="voices-head reveal"><h2 id="voices-title">Detalhes que<br><em>permanecem.</em></h2><p>Uma coleção nasce do diálogo entre forma, matéria e o jeito de viver de cada pessoa.</p></div>
+      <div class="quote-grid"><article class="quote reveal"><span class="eyebrow">01 / Caimento</span><h3>Liberdade para se mover.</h3><p>Recortes e proporções pensados para acompanhar o corpo sem prender os gestos.</p></article><article class="quote quote-featured reveal"><span class="eyebrow">02 / Matéria</span><h3>Textura que pede toque.</h3><p>Linho, algodão e superfícies naturais dão profundidade à paleta da coleção.</p></article><article class="quote reveal"><span class="eyebrow">03 / Uso</span><h3>Peças que conversam.</h3><p>Formas simples se combinam entre si e encontram espaço em diferentes momentos.</p></article></div>
+    </section>
+
+    <section class="faq section-pad" id="faq" aria-labelledby="faq-title">
+      <div class="faq-intro reveal"><p class="eyebrow">06 / Para saber</p><h2 id="faq-title">Perguntas<br><em>frequentes.</em></h2><p>Algumas informações para escolher, vestir e cuidar das suas peças.</p></div>
+      <div class="faq-list reveal">
+        <details><summary>Como escolher o tamanho?<span aria-hidden="true">+</span></summary><p>Consulte a tabela de medidas de cada peça e compare com uma roupa de caimento semelhante. Se precisar, envie sua dúvida pelo formulário.</p></details>
+        <details><summary>Quais matérias-primas fazem parte da coleção?<span aria-hidden="true">+</span></summary><p>Linho, algodão, alfaiataria e couro aparecem em diferentes texturas e tons na coleção Essência.</p></details>
+        <details><summary>Como cuidar das peças?<span aria-hidden="true">+</span></summary><p>Siga as instruções da etiqueta. Para tecidos naturais, prefira lavagem delicada e secagem à sombra.</p></details>
+        <details><summary>Posso solicitar um ajuste?<span aria-hidden="true">+</span></summary><p>Envie uma mensagem ao atelier com o nome da peça e o ajuste desejado para consultar as possibilidades.</p></details>
+      </div>
+    </section>
+
+    <section class="contact section-pad" id="contato" aria-labelledby="contact-title">
+      <div class="contact-visual" aria-hidden="true"><span class="contact-ribbon"></span><span class="contact-stitch"></span></div>
+      <div class="contact-inner">
+        <div class="contact-copy reveal"><p class="eyebrow">07 / Um próximo passo</p><h2 id="contact-title">Toda história<br>começa com <em>um gesto.</em></h2><p>Converse com o atelier sobre a coleção, o caimento ou uma peça feita para você.</p></div>
+        <form class="contact-form reveal" data-contact-form novalidate>
+          <label for="name">Seu nome</label><input id="name" name="name" autocomplete="name" required minlength="2" placeholder="Como podemos chamar você?">
+          <label for="email">Seu e-mail</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="voce@exemplo.com">
+          <label for="message">O que gostaria de conversar?</label><textarea id="message" name="message" rows="3" required minlength="8" placeholder="Conte um pouco sobre sua ideia"></textarea>
+          <button class="button button-gold" type="submit">Enviar mensagem <span>↗</span></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="wordmark" href="#inicio">NOIRÉ <span>ATELIER</span></a><p>Vista sua própria história.</p><div class="footer-meta"><span>© <span data-year></span> NOIRÉ ATELIER</span><a href="#inicio">Voltar ao início ↑</a></div><p class="portfolio-credit" hidden>Crédito de portfólio: <span data-credit></span></p></footer>
+
+  <dialog class="look-dialog" aria-labelledby="look-dialog-title"><button class="dialog-close" type="button" aria-label="Fechar editorial">×</button><div class="dialog-art" data-dialog-art></div><div class="dialog-info"><p class="eyebrow" data-dialog-number>EDITORIAL 01</p><h2 id="look-dialog-title" data-dialog-name>Vestido Aurora</h2><p data-dialog-copy>Uma peça para acompanhar sua história.</p><button class="button button-outline" type="button" data-dialog-add>Adicionar à sacola <span>+</span></button></div></dialog>
+  <dialog class="cart-dialog" aria-labelledby="cart-title"><div class="cart-head"><div><p class="eyebrow">Sua seleção</p><h2 id="cart-title">Sua sacola</h2></div><button class="dialog-close" type="button" aria-label="Fechar sacola">×</button></div><div class="cart-items" data-cart-items></div><div class="cart-foot"><p><span>Total</span><b data-cart-total>R$ 0</b></p><small>Os itens selecionados seguem para o formulário de contato.</small><button class="button button-gold" type="button" data-checkout>Continuar pedido</button></div></dialog>
+  <div class="toast" role="status" aria-live="polite" data-toast></div>
+</body>
+</html>
